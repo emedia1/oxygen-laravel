@@ -1,0 +1,21 @@
+@import "../app/brand-variables";
+@import "../base/_base";
+
+ul,
+ol {
+  // list without any bullets or padding
+  &.list-clean {
+	list-style: none;
+	padding: 0;
+	li {
+	  padding: 0;
+	}
+  }
+
+  // give a 10px space between list items
+  &.list-spaced {
+  	li {
+	  margin-bottom: 10px;
+	}
+  }
+}

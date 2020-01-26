@@ -1,0 +1,23 @@
+@import "bootstrap_variables";
+
+.btn-outline {
+	background: transparent;
+	&.btn-warning {
+		color: $brand-warning;
+	}
+  	&:hover {
+		background: transparent;
+	}
+	&.active {
+		box-shadow: none;
+		color: $btn-default-bg;
+	}
+}
+
+.col {
+	&.vertical-align {
+	  display: inline-block;
+	  vertical-align: middle;
+	  float: none;
+	}
+}
